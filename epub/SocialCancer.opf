@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:opf="http://www.idpf.org/2007/opf"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns="http://www.idpf.org/2007/opf"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         version="3.0"
+         unique-identifier="epub-id">
+   <metadata>
+      <dc:identifier id="epub-id">urn:uuid:6647b4e6-76b4-4c7d-86dc-e1ac8a489f3d</dc:identifier>
+      <meta refines="#epub-id" property="identifier-type">uuid</meta>
+      <meta property="dcterms:modified">2017-04-08T20:20:01Z</meta>
+      <dc:identifier id="pgnum">https://www.gutenberg.org/ebooks/6737</dc:identifier>
+      <meta refines="#pgnum" property="identifier-type">uri</meta>
+      <dc:title>The Social Cancer</dc:title>
+      <dc:creator id="xd27e7metadata">José Rizal (1861–1896)</dc:creator>
+      <meta property="role" refines="#xd27e7metadata" scheme="marc:relators">aut</meta>
+      <meta property="file-as" refines="#xd27e7metadata">Rizal, José</meta>
+      <dc:contributor id="xd27e9metadata">Charles Derbyshire</dc:contributor>
+      <meta property="role" refines="#xd27e9metadata" scheme="marc:relators">trl</meta>
+      <meta property="file-as" refines="#xd27e9metadata">Derbyshire, Charles</meta>
+      <dc:contributor id="xd27e14metadata">Jeroen Hellingman</dc:contributor>
+      <meta property="role" refines="#xd27e14metadata" scheme="marc:relators">trc</meta>
+      <meta property="file-as" refines="#xd27e14metadata">Hellingman, Jeroen</meta>
+      <dc:publisher>Project Gutenberg, Urbana, Illinois, USA.</dc:publisher>
+      <dc:rights>This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org.
+This eBook is produced by Jeroen Hellingman.
+This text is in the public domain. First published simultaneous in 1912 in the Philippines (Manila, Philippine Education Company) and the U.S.A. (New York, World book company), so the copyright has expired.</dc:rights>
+      <dc:language>en-us</dc:language>
+      <dc:subject>Historical fiction</dc:subject>
+      <dc:subject>Philippines - History - 1812-1898 - Fiction</dc:subject>
+      <dc:date>2004-10-01</dc:date>
+      <meta name="cover" content="cover-image"/>
+   </metadata>
+   <manifest>
+      <item id="ncx" href="SocialCancer.ncx" media-type="application/x-dtbncx+xml"/>
+      <item id="epub3toc" properties="nav" href="SocialCancer-nav.xhtml"
+            media-type="application/xhtml+xml"/>
+      <item id="css" href="SocialCancer.css" media-type="text/css"/>
+      <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
+      <item id="frontmatter-2" href="SocialCancer-frontmatter-2.xhtml"
+            media-type="application/xhtml+xml"/>
+      <item id="copy" href="SocialCancer-copy.xhtml" media-type="application/xhtml+xml"/>
+      <item id="intro" href="SocialCancer-intro.xhtml" media-type="application/xhtml+xml"/>
+      <item id="epigraph" href="SocialCancer-epigraph.xhtml"
+            media-type="application/xhtml+xml"/>
+      <item id="toc" href="SocialCancer-toc.xhtml" media-type="application/xhtml+xml"/>
+      <item id="dedi" href="SocialCancer-dedi.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch01" href="SocialCancer-ch01.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch02" href="SocialCancer-ch02.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch03" href="SocialCancer-ch03.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch04" href="SocialCancer-ch04.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch05" href="SocialCancer-ch05.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch06" href="SocialCancer-ch06.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch07" href="SocialCancer-ch07.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch08" href="SocialCancer-ch08.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch09" href="SocialCancer-ch09.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch10" href="SocialCancer-ch10.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch11" href="SocialCancer-ch11.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch12" href="SocialCancer-ch12.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch13" href="SocialCancer-ch13.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch14" href="SocialCancer-ch14.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch15" href="SocialCancer-ch15.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch16" href="SocialCancer-ch16.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch17" href="SocialCancer-ch17.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch18" href="SocialCancer-ch18.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch19" href="SocialCancer-ch19.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch20" href="SocialCancer-ch20.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch21" href="SocialCancer-ch21.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch22" href="SocialCancer-ch22.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch23" href="SocialCancer-ch23.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch24" href="SocialCancer-ch24.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch25" href="SocialCancer-ch25.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch26" href="SocialCancer-ch26.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch27" href="SocialCancer-ch27.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch28" href="SocialCancer-ch28.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch29" href="SocialCancer-ch29.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch30" href="SocialCancer-ch30.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch31" href="SocialCancer-ch31.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch32" href="SocialCancer-ch32.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch33" href="SocialCancer-ch33.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch34" href="SocialCancer-ch34.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch35" href="SocialCancer-ch35.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch36" href="SocialCancer-ch36.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch37" href="SocialCancer-ch37.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch38" href="SocialCancer-ch38.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch39" href="SocialCancer-ch39.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch40" href="SocialCancer-ch40.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch41" href="SocialCancer-ch41.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch42" href="SocialCancer-ch42.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch43" href="SocialCancer-ch43.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch44" href="SocialCancer-ch44.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch45" href="SocialCancer-ch45.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch46" href="SocialCancer-ch46.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch47" href="SocialCancer-ch47.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch48" href="SocialCancer-ch48.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch49" href="SocialCancer-ch49.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch50" href="SocialCancer-ch50.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch51" href="SocialCancer-ch51.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch52" href="SocialCancer-ch52.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch53" href="SocialCancer-ch53.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch54" href="SocialCancer-ch54.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch55" href="SocialCancer-ch55.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch56" href="SocialCancer-ch56.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch57" href="SocialCancer-ch57.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch58" href="SocialCancer-ch58.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch59" href="SocialCancer-ch59.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch60" href="SocialCancer-ch60.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch61" href="SocialCancer-ch61.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch62" href="SocialCancer-ch62.xhtml" media-type="application/xhtml+xml"/>
+      <item id="ch63" href="SocialCancer-ch63.xhtml" media-type="application/xhtml+xml"/>
+      <item id="epilogue" href="SocialCancer-epilogue.xhtml"
+            media-type="application/xhtml+xml"/>
+      <item id="gloss" href="SocialCancer-gloss.xhtml" media-type="application/xhtml+xml"/>
+      <item id="backmatter-2" href="SocialCancer-backmatter-2.xhtml"
+            media-type="application/xhtml+xml"/>
+      <item properties="cover-image" id="cover-image" href="images/front-cover.jpg"
+            media-type="image/jpeg"/>
+   </manifest>
+   <spine toc="ncx">
+      <itemref linear="no" idref="cover"/>
+      <itemref linear="yes" idref="frontmatter-2"/>
+      <itemref linear="yes" idref="copy"/>
+      <itemref linear="yes" idref="intro"/>
+      <itemref linear="yes" idref="epigraph"/>
+      <itemref linear="yes" idref="toc"/>
+      <itemref linear="yes" idref="dedi"/>
+      <itemref linear="yes" idref="ch01"/>
+      <itemref linear="yes" idref="ch02"/>
+      <itemref linear="yes" idref="ch03"/>
+      <itemref linear="yes" idref="ch04"/>
+      <itemref linear="yes" idref="ch05"/>
+      <itemref linear="yes" idref="ch06"/>
+      <itemref linear="yes" idref="ch07"/>
+      <itemref linear="yes" idref="ch08"/>
+      <itemref linear="yes" idref="ch09"/>
+      <itemref linear="yes" idref="ch10"/>
+      <itemref linear="yes" idref="ch11"/>
+      <itemref linear="yes" idref="ch12"/>
+      <itemref linear="yes" idref="ch13"/>
+      <itemref linear="yes" idref="ch14"/>
+      <itemref linear="yes" idref="ch15"/>
+      <itemref linear="yes" idref="ch16"/>
+      <itemref linear="yes" idref="ch17"/>
+      <itemref linear="yes" idref="ch18"/>
+      <itemref linear="yes" idref="ch19"/>
+      <itemref linear="yes" idref="ch20"/>
+      <itemref linear="yes" idref="ch21"/>
+      <itemref linear="yes" idref="ch22"/>
+      <itemref linear="yes" idref="ch23"/>
+      <itemref linear="yes" idref="ch24"/>
+      <itemref linear="yes" idref="ch25"/>
+      <itemref linear="yes" idref="ch26"/>
+      <itemref linear="yes" idref="ch27"/>
+      <itemref linear="yes" idref="ch28"/>
+      <itemref linear="yes" idref="ch29"/>
+      <itemref linear="yes" idref="ch30"/>
+      <itemref linear="yes" idref="ch31"/>
+      <itemref linear="yes" idref="ch32"/>
+      <itemref linear="yes" idref="ch33"/>
+      <itemref linear="yes" idref="ch34"/>
+      <itemref linear="yes" idref="ch35"/>
+      <itemref linear="yes" idref="ch36"/>
+      <itemref linear="yes" idref="ch37"/>
+      <itemref linear="yes" idref="ch38"/>
+      <itemref linear="yes" idref="ch39"/>
+      <itemref linear="yes" idref="ch40"/>
+      <itemref linear="yes" idref="ch41"/>
+      <itemref linear="yes" idref="ch42"/>
+      <itemref linear="yes" idref="ch43"/>
+      <itemref linear="yes" idref="ch44"/>
+      <itemref linear="yes" idref="ch45"/>
+      <itemref linear="yes" idref="ch46"/>
+      <itemref linear="yes" idref="ch47"/>
+      <itemref linear="yes" idref="ch48"/>
+      <itemref linear="yes" idref="ch49"/>
+      <itemref linear="yes" idref="ch50"/>
+      <itemref linear="yes" idref="ch51"/>
+      <itemref linear="yes" idref="ch52"/>
+      <itemref linear="yes" idref="ch53"/>
+      <itemref linear="yes" idref="ch54"/>
+      <itemref linear="yes" idref="ch55"/>
+      <itemref linear="yes" idref="ch56"/>
+      <itemref linear="yes" idref="ch57"/>
+      <itemref linear="yes" idref="ch58"/>
+      <itemref linear="yes" idref="ch59"/>
+      <itemref linear="yes" idref="ch60"/>
+      <itemref linear="yes" idref="ch61"/>
+      <itemref linear="yes" idref="ch62"/>
+      <itemref linear="yes" idref="ch63"/>
+      <itemref linear="yes" idref="epilogue"/>
+      <itemref linear="yes" idref="gloss"/>
+      <itemref linear="yes" idref="backmatter-2"/>
+   </spine>
+   <guide>
+      <reference type="cover" title="Cover Image" href="cover.xhtml"/>
+      <reference type="toc" title="Table of Contents" href="SocialCancer-toc.xhtml#toc"/>
+      <reference type="title-page" title="Title Page"
+                 href="SocialCancer-frontmatter-2.xhtml#xd27e96"/>
+      <reference type="dedication" title="Dedication" href="SocialCancer-dedi.xhtml#dedi"/>
+      <reference type="epigraph" title="Epigraph" href="SocialCancer-epigraph.xhtml#epigraph"/>
+      <reference type="copyright-page" title="Copyright Page"
+                 href="SocialCancer-copy.xhtml#copy"/>
+      <reference type="glossary" title="Glossary" href="SocialCancer-gloss.xhtml#gloss"/>
+      <reference type="text" title="Text" href="SocialCancer-ch01.xhtml#ch01"/>
+      <reference type="colophon" title="Colophon"
+                 href="SocialCancer-backmatter-2.xhtml#xd27e12025"/>
+   </guide>
+</package>
