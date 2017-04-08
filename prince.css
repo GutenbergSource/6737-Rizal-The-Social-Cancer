@@ -1,0 +1,294 @@
+
+@media print
+{
+    @page
+    {
+        /* marks: crop cross; */
+        size: 6in 9in;
+        margin: 0mm 16mm 18mm 16mm;
+        margin-inside: 26mm;
+        margin-outside: 16mm;
+
+        @footnotes
+        {
+            margin: 0; padding: 0;
+        }
+
+        counter-reset: footnote;
+    }
+
+    @page frontmatter :left
+    {
+        @top-left { content: normal; }
+        @top-center { content: normal; }
+        @top-right { content: normal; }
+        @bottom-left { content: normal; }
+        @bottom-center { content: normal; }
+        @bottom-right { content: normal; }
+    }
+
+    @page frontmatter :right
+    {
+        @top-left { content: normal; }
+        @top-center { content: normal; }
+        @top-right { content: normal; }
+        @bottom-left { content: normal; }
+        @bottom-center { content: normal; }
+        @bottom-right { content: normal; }
+    }
+
+    @page :left
+    {
+        @top-left { content: normal; }
+        @top-right { content: normal; }
+        @bottom-left
+        {
+            content: counter(page);
+            font-size: 11pt;
+            font-family: "AGaramond LT", serif;
+            margin: 0; padding: 0;
+        }
+        @bottom-right { content: normal; }
+    }
+
+    @page :right
+    {
+        @top-left { content: normal; }
+        @top-right { content: normal; }
+        @bottom-left { content: normal; }
+        @bottom-right
+        {
+            content: counter(page);
+            font-size: 11pt;
+            font-family: "AGaramond LT", serif;
+            margin: 0; padding: 0;
+        }
+    }
+
+    :root, body, h1, h2, h3, h4, h5, h6, .titlePage, .transcribernote, .pseudoh1, .pseudoh2, .pseudoh3, .pseudoh4
+    {
+        color: black;
+        margin: 0; padding: 0;
+        font-size: 11pt;
+        font-family: "AGaramond LT", serif;
+        hyphens: auto;
+        hyphenate-after: 3;
+        hyphenate-before: 3;
+        prince-hyphenate-lines: 2;
+        prince-hyphenate-patterns: url(ushyph2.tex);
+        prince-text-replace: 
+			"..." "\2026" 
+			"\2014" " \2013\20"		/* em-dash to space en-dash space */
+			;
+    }
+
+	h1, h2, h3, h4, h5, h6, .pseudoh1, .pseudoh2, .pseudoh3, .pseudoh4
+	{
+		color: #00008A; /* dark-blue */
+	}
+
+	.initdropcap
+	{
+		/* color: #FF3C00; /* orange-red */
+		color: #00008A; /* dark-blue */
+	}
+
+    body
+    {
+        font-size: 11pt;
+        margin: 0; padding: 0;
+    }
+
+    /* Since we use end-notes, restore the note-markers: We make them relative to the top, as to 
+       prevent CSS from inserting more intra-line space. */
+
+    .noteref, .pseudonoteref
+    {
+        font-size: 7pt !important;
+        position: relative !important;
+        display: inline !important;
+        vertical-align: 0.33em !important;
+        line-height: none !important;
+        content: normal !important;
+		page-break-after: avoid !important;
+    }
+
+	span.label 
+	{
+		page-break-after: avoid !important;
+	}
+
+	h3
+	{
+		font-size: 13pt;
+		margin-bottom: 1.5em;
+		page-break-after: avoid !important;
+	}
+
+    .displayfootnote
+    {
+        font-size: 9pt;
+        font-weight: normal;
+        font-style: normal;
+        text-indent: 1em;
+        text-align: justify;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /* Take care the larger size in the default CSS is reset */
+    p.footnote .label {
+        float: left;
+        text-align: left;
+        text-indent: 0;
+        width: 1.5em;
+        height: 11pt;
+        display: block;
+    }
+
+    div.blockquote
+    {
+        font-size: 10pt;
+        font-family: "AGaramond LT", serif;
+        margin-left: 1em;
+        margin-right: 0;
+    }
+
+
+    /* Cover */
+
+    #cover-image
+    {
+        page: coverpage;
+    }
+
+    #cover-image img
+    {
+        position: absolute;
+        height: 9in;
+        width: 6in;
+        left: 0; top: 0;
+        z-index: -1;
+    }
+
+    #cover
+    {
+        display: none;
+    }
+
+    .wideepigraph
+    {
+        width: 100%;
+    }
+
+	h2.super
+	{
+		display: none;
+	}
+
+    h2.label
+    {
+        font-size: 16pt;
+    }
+
+    h2.main
+    {
+        font-size: 24pt;
+        margin-bottom: 100pt;
+        prince-bookmark-level: 2;
+        prince-bookmark-label: content;
+        string-set: divtitle content();
+    }
+
+    /* fix up a chapter title with a footnote */
+    #ch53 h2.main
+    {
+        prince-bookmark-level: 2;
+        prince-bookmark-label: "Il buon di si conosce da mattina";
+        string-set: divtitle "Il buon di si conosce da mattina";
+    }
+
+    #ch57 h2.main
+    {
+        prince-bookmark-level: 2;
+        prince-bookmark-label: "Vae victis!";
+        string-set: divtitle "Vae victis!";
+    }
+
+    /* fix up an unnamed chapter */
+    #ch54 h2.label
+    {
+        margin-bottom: 80pt;
+        prince-bookmark-level: 2;
+        prince-bookmark-label: "Quidquid latet apparebit, etc.";
+        string-set: divtitle "Quidquid latet apparebit, etc.";
+    }
+
+    #toc ul
+    {
+        margin-left: 0;
+        color: red;
+    }
+
+    p.line
+    {
+        font-style: italic;
+    }
+
+
+    /* Title page */
+
+    #booktitle
+    {
+        text-align: right;
+        font-size: 36pt;
+    }
+
+    #subtitle
+    {
+        text-align: right;
+        font-style: italic;
+        font-size: 28pt;
+    }
+
+    #byline
+    {
+        margin-top: 10cm;
+        text-align: right;
+    }
+
+    #author
+    {
+        font-size: 28pt;
+        margin-bottom: 2cm;
+    }
+
+    #docimprint
+    {
+        font-size: 12pt;
+        text-align: right;
+    }
+    
+
+    /* Copyright page */
+
+    #copyright
+    {
+        font-size: 9pt;
+        margin-top: 9cm;
+    }
+
+    #copyright p
+    {
+        text-indent: 0;
+        margin-bottom: 1em;
+    }
+
+    /* Some additional page-breaks */
+
+    div.titlePage, #epigraph, #dedication, #ch1
+    {
+        page-break-before: right;
+    }
+
+}
