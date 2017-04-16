@@ -894,35 +894,29 @@ sub, sup {
 }
         /* CSS rules generated from @rend attributes in TEI file */
         
-.xd27e92width {
+.cover-imagewidth {
     width:502px;
 }
             
-.xd27e163
-{
+.xd28e163 {
 text-align:right;
 }
 
-.xd27e320
-{
+.xd28e320 {
 text-indent:16em;
 }
 
-.xd27e781
-{
+.xd28e781 {
 text-indent:2em;
 }
 
-.xd27e788
-{
+.xd28e788 {
 text-indent:2em;
 }
 
-.xd27e1236
-{
+.xd28e1236 {
 text-indent:4em;
 }
-@media handheld
-{
+@media handheld {
 
 }

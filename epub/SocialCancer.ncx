@@ -24,40 +24,40 @@
          </navLabel>
          <content src="cover.xhtml#cover"/>
       </navPoint>
-      <navPoint playOrder="2" class="titlepage" id="xd27e96">
+      <navPoint playOrder="2" class="titlepage" id="xd28e96">
          <navLabel>
             <text>Title Page</text>
          </navLabel>
-         <content src="SocialCancer-frontmatter-2.xhtml#xd27e96"/>
+         <content src="SocialCancer-frontmatter-2.xhtml#xd28e96"/>
       </navPoint>
       <navPoint playOrder="3" class="chapter" id="intro">
          <navLabel>
             <text>Translator’s Introduction</text>
          </navLabel>
          <content src="SocialCancer-intro.xhtml"/>
-         <navPoint playOrder="4" class="section" id="xd27e157">
+         <navPoint playOrder="4" class="section" id="xd28e157">
             <navLabel>
                <text>I</text>
             </navLabel>
-            <content src="SocialCancer-intro.xhtml#xd27e157"/>
+            <content src="SocialCancer-intro.xhtml#xd28e157"/>
          </navPoint>
-         <navPoint playOrder="5" class="section" id="xd27e366">
+         <navPoint playOrder="5" class="section" id="xd28e366">
             <navLabel>
                <text>II</text>
             </navLabel>
-            <content src="SocialCancer-intro.xhtml#xd27e366"/>
+            <content src="SocialCancer-intro.xhtml#xd28e366"/>
          </navPoint>
-         <navPoint playOrder="6" class="section" id="xd27e600">
+         <navPoint playOrder="6" class="section" id="xd28e600">
             <navLabel>
                <text>III</text>
             </navLabel>
-            <content src="SocialCancer-intro.xhtml#xd27e600"/>
+            <content src="SocialCancer-intro.xhtml#xd28e600"/>
          </navPoint>
-         <navPoint playOrder="7" class="section" id="xd27e739">
+         <navPoint playOrder="7" class="section" id="xd28e739">
             <navLabel>
                <text>IV</text>
             </navLabel>
-            <content src="SocialCancer-intro.xhtml#xd27e739"/>
+            <content src="SocialCancer-intro.xhtml#xd28e739"/>
          </navPoint>
       </navPoint>
       <navPoint playOrder="8" class="chapter" id="toc">
@@ -462,11 +462,11 @@
          </navLabel>
          <content src="SocialCancer-gloss.xhtml"/>
       </navPoint>
-      <navPoint playOrder="75" class="colophon" id="xd27e12025">
+      <navPoint playOrder="75" class="colophon" id="xd28e12025">
          <navLabel>
             <text>Colophon</text>
          </navLabel>
-         <content src="SocialCancer-backmatter-2.xhtml#xd27e12025"/>
+         <content src="SocialCancer-backmatter-2.xhtml#xd28e12025"/>
       </navPoint>
    </navMap>
 </ncx>

@@ -9,19 +9,19 @@
    <metadata>
       <dc:identifier id="epub-id">urn:uuid:6647b4e6-76b4-4c7d-86dc-e1ac8a489f3d</dc:identifier>
       <meta refines="#epub-id" property="identifier-type">uuid</meta>
-      <meta property="dcterms:modified">2017-04-08T20:20:01Z</meta>
+      <meta property="dcterms:modified">2017-04-16T20:43:38Z</meta>
       <dc:identifier id="pgnum">https://www.gutenberg.org/ebooks/6737</dc:identifier>
       <meta refines="#pgnum" property="identifier-type">uri</meta>
       <dc:title>The Social Cancer</dc:title>
-      <dc:creator id="xd27e7metadata">José Rizal (1861–1896)</dc:creator>
-      <meta property="role" refines="#xd27e7metadata" scheme="marc:relators">aut</meta>
-      <meta property="file-as" refines="#xd27e7metadata">Rizal, José</meta>
-      <dc:contributor id="xd27e9metadata">Charles Derbyshire</dc:contributor>
-      <meta property="role" refines="#xd27e9metadata" scheme="marc:relators">trl</meta>
-      <meta property="file-as" refines="#xd27e9metadata">Derbyshire, Charles</meta>
-      <dc:contributor id="xd27e14metadata">Jeroen Hellingman</dc:contributor>
-      <meta property="role" refines="#xd27e14metadata" scheme="marc:relators">trc</meta>
-      <meta property="file-as" refines="#xd27e14metadata">Hellingman, Jeroen</meta>
+      <dc:creator id="xd28e7metadata">José Rizal (1861–1896)</dc:creator>
+      <meta property="role" refines="#xd28e7metadata" scheme="marc:relators">aut</meta>
+      <meta property="file-as" refines="#xd28e7metadata">Rizal, José</meta>
+      <dc:contributor id="xd28e9metadata">Charles Derbyshire</dc:contributor>
+      <meta property="role" refines="#xd28e9metadata" scheme="marc:relators">trl</meta>
+      <meta property="file-as" refines="#xd28e9metadata">Derbyshire, Charles</meta>
+      <dc:contributor id="xd28e14metadata">Jeroen Hellingman</dc:contributor>
+      <meta property="role" refines="#xd28e14metadata" scheme="marc:relators">trc</meta>
+      <meta property="file-as" refines="#xd28e14metadata">Hellingman, Jeroen</meta>
       <dc:publisher>Project Gutenberg, Urbana, Illinois, USA.</dc:publisher>
       <dc:rights>This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org.
 This eBook is produced by Jeroen Hellingman.
@@ -196,7 +196,7 @@ This text is in the public domain. First published simultaneous in 1912 in the P
       <reference type="cover" title="Cover Image" href="cover.xhtml"/>
       <reference type="toc" title="Table of Contents" href="SocialCancer-toc.xhtml#toc"/>
       <reference type="title-page" title="Title Page"
-                 href="SocialCancer-frontmatter-2.xhtml#xd27e96"/>
+                 href="SocialCancer-frontmatter-2.xhtml#xd28e96"/>
       <reference type="dedication" title="Dedication" href="SocialCancer-dedi.xhtml#dedi"/>
       <reference type="epigraph" title="Epigraph" href="SocialCancer-epigraph.xhtml#epigraph"/>
       <reference type="copyright-page" title="Copyright Page"
@@ -204,6 +204,6 @@ This text is in the public domain. First published simultaneous in 1912 in the P
       <reference type="glossary" title="Glossary" href="SocialCancer-gloss.xhtml#gloss"/>
       <reference type="text" title="Text" href="SocialCancer-ch01.xhtml#ch01"/>
       <reference type="colophon" title="Colophon"
-                 href="SocialCancer-backmatter-2.xhtml#xd27e12025"/>
+                 href="SocialCancer-backmatter-2.xhtml#xd28e12025"/>
    </guide>
 </package>
